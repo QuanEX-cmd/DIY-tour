@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Plan a DIY Tour</title>
+<style>
+body { font-family: Arial; margin: 0; background: #f4f4f4; }
+header { background: #333; color: white; padding: 20px; text-align: center; }
+section { padding: 20px; margin: 10px; background: white; border-radius: 10px; }
+button { padding: 10px 15px; margin-top: 10px; }
+#gameResult { font-weight: bold; margin-top: 10px; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>How to Plan a DIY Tour</h1>
+<p>Your smart guide to independent travel ✈️</p>
+</header>
+
+<section>
+<h2>🎯 Step 1: Choose Your Destination</h2>
+<p>Pick a place based on your budget, interests, and season.</p>
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" width="100%">
+</section>
+
+<section>
+<h2>🎧 Audio Tip</h2>
+<p>Listen to a quick travel planning tip:</p>
+<audio controls>
+<source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+</section>
+
+<section>
+<h2>🎥 Travel Inspiration Video</h2>
+<video width="100%" controls>
+<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+</video>
+</section>
+
+<section>
+<h2>🧠 Mini Game: Budget Challenge</h2>
+<p>You have $1000. Choose wisely:</p>
+<button onclick="choose('flight')">Expensive Flight ($800)</button>
+<button onclick="choose('budget')">Budget Flight ($400)</button>
+<div id="gameResult"></div>
+</section>
+
+<script>
+function choose(option) {
+  let result = document.getElementById('gameResult');
+  if(option === 'flight') {
+    result.innerHTML = '😬 Too expensive! Not much budget left for fun.';
+  } else {
+    result.innerHTML = '🎉 Great choice! You saved money for experiences.';
+  }
+}
+</script>
+
+<section>
+<h2>📝 Step 2: Plan Your Itinerary</h2>
+<p>Create a flexible plan including must-see spots and free time.</p>
+</section>
+
+<section>
+<h2>💡 Step 3: Book Smart</h2>
+<p>Compare prices and book flights, hotels, and transport early.</p>
+</section>
+
+<footer style="text-align:center; padding:20px;">
+<p>© 2026 DIY Travel Guide</p>
+</footer>
+
+</body>
+</html>
